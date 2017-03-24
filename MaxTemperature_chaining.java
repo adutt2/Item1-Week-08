@@ -32,8 +32,8 @@ ChainMapper.addMapper(job,
                       MaxTemperatureMapper.class,
                       LongWritable.class,
                       Text.class,
-                      IntWritable.class,
                       Text.class,
+                      IntWritable.class,
                       map1Conf);
 Configuration red2Conf = new Configuration(false);
 ChainReducer.setReducer(job,
